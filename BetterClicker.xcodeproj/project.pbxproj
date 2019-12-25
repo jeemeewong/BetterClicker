@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF1188A023B340BB00C580FC /* ScoresTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF11889F23B340BB00C580FC /* ScoresTableViewController.swift */; };
 		EF1FD08123B1E935006626A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1FD08023B1E935006626A7 /* AppDelegate.swift */; };
 		EF1FD08323B1E935006626A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1FD08223B1E935006626A7 /* SceneDelegate.swift */; };
 		EF1FD08523B1E935006626A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1FD08423B1E935006626A7 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF11889F23B340BB00C580FC /* ScoresTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresTableViewController.swift; sourceTree = "<group>"; };
 		EF1FD07D23B1E935006626A7 /* BetterClicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterClicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF1FD08023B1E935006626A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF1FD08223B1E935006626A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		EF1FD07423B1E935006626A7 = {
 			isa = PBXGroup;
 			children = (
+				EF11889F23B340BB00C580FC /* ScoresTableViewController.swift */,
 				EF1FD07F23B1E935006626A7 /* BetterClicker */,
 				EF1FD07E23B1E935006626A7 /* Products */,
 			);
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF1188A023B340BB00C580FC /* ScoresTableViewController.swift in Sources */,
 				EF1FD08523B1E935006626A7 /* ViewController.swift in Sources */,
 				EF1FD08123B1E935006626A7 /* AppDelegate.swift in Sources */,
 				EF1FD08323B1E935006626A7 /* SceneDelegate.swift in Sources */,

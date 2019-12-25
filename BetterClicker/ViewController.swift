@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         counter += 1
         label.text = "\(counter)"
         
-        if counter == 30 {
+        if counter == 10 {
             print("done")
             print("time taken : \(time) seconds")
         }
