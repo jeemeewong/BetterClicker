@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--Scores-->
         <scene sceneID="yXr-gn-vx5">
             <objects>
                 <tableViewController id="PQP-LP-Dxv" customClass="ScoresTableViewController" customModule="BetterClicker" customModuleProvider="target" sceneMemberID="viewController">
@@ -30,7 +30,7 @@
                             <outlet property="delegate" destination="PQP-LP-Dxv" id="p6h-GK-Awd"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="QSX-kJ-cEC">
+                    <navigationItem key="navigationItem" title="Scores" largeTitleDisplayMode="always" id="QSX-kJ-cEC">
                         <barButtonItem key="rightBarButtonItem" title="Play" id="ZyO-Dw-u44">
                             <connections>
                                 <segue destination="BYZ-38-t0r" kind="presentation" id="UdL-k6-4WH"/>
@@ -90,9 +90,11 @@
                     </view>
                     <connections>
                         <outlet property="label" destination="B8D-Wy-8Sb" id="sIS-Ja-TXf"/>
+                        <segue destination="obr-xl-toM" kind="unwind" identifier="unwindToScores" unwindAction="unwindToScoresWithSegue:" id="VKy-O6-3at"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <exit id="obr-xl-toM" userLabel="Exit" sceneMemberID="exit"/>
                 <tapGestureRecognizer id="5Pd-Ms-IWH">
                     <connections>
                         <action selector="tapped:" destination="BYZ-38-t0r" id="Uha-1A-Sf7"/>

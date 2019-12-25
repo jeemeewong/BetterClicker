@@ -33,6 +33,7 @@ class ViewController: UIViewController {
         if counter == 10 {
             print("done")
             print("time taken : \(time) seconds")
+            performSegue(withIdentifier: "unwindToScores", sender: self)
         }
     }
     
